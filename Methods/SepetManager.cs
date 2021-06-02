@@ -12,7 +12,7 @@ namespace Methods
         // Syntax
         public void Ekle(Urun urun)
         {
-            Console.WriteLine("Tebrikler "+ urunAdi +" sepete eklendi.");
+            Console.WriteLine("Tebrikler "+ urun.UrunAdi +" sepete eklendi.");
         }
 
         //Başka ekleme yöntemi

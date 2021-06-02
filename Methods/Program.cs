@@ -8,30 +8,30 @@ namespace Methods
         {
 
             Urun urun1 = new Urun();
-            urun1.urunId = 1;
-            urun1.urunAdi = "Elma";
-            urun1.urunFiyati = 5;
-            urun1.urunAciklamasi = "Amasya Elması";
+            urun1.UrunId = 1;
+            urun1.UrunAdi = "Elma";
+            urun1.UrunFiyati = 5;
+            urun1.UrunAciklamasi = "Amasya Elması";
 
             Urun urun2 = new Urun();
-            urun2.urunId = 2;
-            urun2.urunAdi = "Kayısı";
-            urun2.urunFiyati = 4;
-            urun2.urunAciklamasi = "Malatya Kayısı";
+            urun2.UrunId = 2;
+            urun2.UrunAdi = "Kayısı";
+            urun2.UrunFiyati = 4;
+            urun2.UrunAciklamasi = "Malatya Kayısı";
 
             Urun urun3 = new Urun();
-            urun3.urunId = 3;
-            urun3.urunAdi = "Karpuz";
-            urun3.urunFiyati = 10;
-            urun3.urunAciklamasi = "Adana Karpuzu";
+            urun3.UrunId = 3;
+            urun3.UrunAdi = "Karpuz";
+            urun3.UrunFiyati = 10;
+            urun3.UrunAciklamasi = "Adana Karpuzu";
 
             Urun[] urunler = new Urun[] { urun1,urun2,urun3 };
 
             foreach (Urun urun in urunler)
             {
-                Console.WriteLine(urun.urunAdi);
-                Console.WriteLine(urun.urunFiyati);
-                Console.WriteLine(urun.urunAciklamasi);
+                Console.WriteLine(urun.UrunAdi);
+                Console.WriteLine(urun.UrunFiyati);
+                Console.WriteLine(urun.UrunAciklamasi);
                 Console.WriteLine("------------------------------------------");
             }
 

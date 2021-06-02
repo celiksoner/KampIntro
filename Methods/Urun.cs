@@ -9,10 +9,10 @@ namespace Methods
     class Urun
     {
         // Propertys
-        public int urunId { get; set; }
-        public string urunAdi { get; set; }
-        public double urunFiyati { get; set; }
-        public string urunAciklamasi { get; set; }
-        public int urunStokAdedi { get; set; }
+        public int UrunId { get; set; }
+        public string UrunAdi { get; set; }
+        public double UrunFiyati { get; set; }
+        public string UrunAciklamasi { get; set; }
+        public int UrunStokAdedi { get; set; }
     }
 }
