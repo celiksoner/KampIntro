@@ -20,10 +20,15 @@ namespace OOP1
             productManager.Add(product1);
             Console.WriteLine(product1.ProductName);
 
-            int sayi = 100;
-            productManager.BiseyYap(sayi);
-            Console.WriteLine(sayi);
 
+            /*
+            //public int şeklinde sonuç return edilerek daha sonra veri işlenerek kullanılabilir.
+            int toplamaSonucu = productManager.Topla(3, 6);
+            Console.WriteLine("Toplama sonucu: " + toplamaSonucu);
+
+            //Void ile sadece gönderilen verilerek işlenerek sonuç ekrana yazdırılır.
+            productManager.Topla2(3, 6);
+            */
 
         }
 
