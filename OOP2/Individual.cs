@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace OOP2
 {
-    class Individual
+    class Individual:Customer
     {
+        public string TcNo { get; set; }
+        public string Adi { get; set; }
+        public string Soyadi { get; set; }
     }
 }

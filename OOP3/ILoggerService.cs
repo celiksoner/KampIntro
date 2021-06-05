@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP2
+namespace OOP3
 {
-    class Corporate:Customer
+    interface ILoggerService
     {
-        public string SirketAdi { get; set; }
-        public string VergiNo { get; set; }
+        void Log();
     }
 }
