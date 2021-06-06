@@ -1,0 +1,6 @@
+﻿namespace CoffeeProject
+{
+    interface IEntity
+    {
+    }
+}
