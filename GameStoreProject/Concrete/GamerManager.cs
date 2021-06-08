@@ -9,9 +9,26 @@ namespace GameStoreProject.Concrete
 {
     class GamerManager : IGamerService
     {
+        IVerificationService verificationService;
+
+        
+
+        public GamerManager(IVerificationService verificationService)
+        {
+            this.verificationService = verificationService;
+        }
+
         public void Add(Gamer gamer)
         {
-            Console.WriteLine(gamer.FirstName + " oyuncusu sisteme eklendi.");
+            if(verificationService.CheckIfRealPerson(gamer)==true)
+            {
+                Console.WriteLine(gamer.FirstName + " oyuncusu sisteme eklendi.");
+            }
+            else
+            {
+                Console.WriteLine("Kayıt başarısız, bilgiler yanlış");
+            }
+            
             Console.WriteLine("------------------------------------------------------------------------------------------------------------------------------------------------------");
         }
 

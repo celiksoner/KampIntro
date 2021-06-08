@@ -13,7 +13,7 @@ namespace GameStoreProject.Concrete
         {
             int sayi = gamer.NationalityId.Length;
 
-            if(sayi==1)
+            if(sayi==11)
             {
                 return true;
             }

@@ -12,11 +12,11 @@ namespace GameStoreProject
             //Sisteme oyuncu ekliyoruz.
             Gamer gamer1 = new Gamer();
             gamer1.GamerId = 1;
-            gamer1.NationalityId = "45466962608";
+            gamer1.NationalityId = "45466961232";
             gamer1.FirstName = "Soner";
             gamer1.LastName = "Çelik";
             //Oyuncu yönetimi sınıfının referansını oluşturuyoruz.
-            GamerManager gamerManager = new GamerManager();
+            GamerManager gamerManager = new GamerManager(new VerificationManager());
             //gamer1'e verdiğimiz değerleri sisteme ekliyoruz.
             gamerManager.Add(gamer1);
 
